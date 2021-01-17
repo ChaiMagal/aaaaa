@@ -21,21 +21,16 @@ const ProductCarousel = () => {
   ) : error ? (
     <Message variant='danger'>{error}</Message>
   ) : (
-    <Carousel
-      slide
-      fade={true}
-      style={{ maxWidth: '700px', margin: '0 auto' }}
-      fluid
-    >
+    <Carousel slide fade={true}>
       {products.map((product) => (
         <Carousel.Item key={product._id}>
-          <Image src={product.image} alt={product.name}></Image>
           <Link to={`/product/${product._id}`}>
             <Carousel.Caption className='carousel-caption'>
               <sub>
                 {product.name} (${product.price})
               </sub>
             </Carousel.Caption>
+            <Image src={product.image} alt={product.name}></Image>
           </Link>
         </Carousel.Item>
       ))}
