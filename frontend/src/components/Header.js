@@ -39,7 +39,7 @@ const Header = ({ history }) => {
       <Navbar
         // bg='dark'
         id='navbarhead'
-        variant='light'
+        variant='dark'
         expand='lg'
         collapseOnSelect
         className='border-0 fixed-top'
