@@ -37,7 +37,7 @@ const Header = ({ history }) => {
   return (
     <header>
       <Navbar
-        // bg='dark'
+        bg='primary'
         id='navbarhead'
         variant='dark'
         expand='lg'
@@ -51,8 +51,8 @@ const Header = ({ history }) => {
               <img
                 src={logo}
                 alt='logo'
-                width='15px'
-                height='15px'
+                width='30px'
+                height='30px'
                 style={{
                   marginTop: '-4px',
                   marginRight: '5px',
@@ -62,7 +62,7 @@ const Header = ({ history }) => {
               />
               <span
                 style={{
-                  fontSize: '16px',
+                  fontSize: '20px',
                 }}
               >
                 eCommerce
@@ -85,7 +85,7 @@ const Header = ({ history }) => {
 
           <Navbar.Collapse
             style={{
-              fontSize: '16px',
+              fontSize: '20px',
             }}
           >
             <Nav
