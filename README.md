@@ -1,4 +1,4 @@
-MERN stack eCommerce - MongoDB, Express, React, Node.js
+MERN stack eCommerce - MongoDB, Express, React, Node.js - with React Bootstrap
 
 https://eccomerce-chaimagal.herokuapp.com/
 
